@@ -1,9 +1,13 @@
-# Python_challenge
+<!DOCTYPE html>
+<html>
 
-## PyBank Goals
+<h1>Python Challenge</h1>
+
+<h2>PyBank Goals</h2>
 
 
-Create a Python script that analyzes the records to calculate each of the following:
+<p>
+ Create a Python script that analyzes the records to calculate each of the following:
 
   * The total number of months included in the dataset
 
@@ -14,24 +18,19 @@ Create a Python script that analyzes the records to calculate each of the follow
   * The greatest increase in profits (date and amount) over the entire period
 
   * The greatest decrease in losses (date and amount) over the entire period
-
-* As an example, your analysis should look similar to the one below:
-
-  ```text
-  Financial Analysis
-  ----------------------------
-  Total Months: 86
-  Total: $38382578
-  Average  Change: $-2315.12
-  Greatest Increase in Profits: Feb-2012 ($1926159)
-  Greatest Decrease in Profits: Sep-2013 ($-2196167)
-  ```
-
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-
-## PyPoll Goals 
-Create a Python script that analyzes the votes and calculates each of the following:
+</p>
+<h3>Results</h3>
+<p>
+ <b>Total Months:</b>  86 <br>
+  <b>Total:</b>  $38,382,578<br>
+  <b>Average Change:</b>  $-2315.12<br>
+  <b>Greatest increase in profits:</b>  Febuary 2012; $1,926,159<br>
+  <b>Greatest Decrease in profits:</b>  September 2013; $-2,196,167<br>
+</p>
+<hr>
+<h2>PyPoll Goals</h2>
+  <p>
+   Create a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
@@ -42,21 +41,18 @@ Create a Python script that analyzes the votes and calculates each of the follow
   * The total number of votes each candidate won
 
   * The winner of the election based on popular vote.
+  </p>
+<h3>Election Results</h3>
+  <p>
+ <b>Total Votes</b>: 3,521,001<br>
 
-* As an example, your analysis should look similar to the one below:
+<b>Khan:</b> 63.0% (2,218,231)<br>
+<b>Correy:</b> 20.0% (704,200)<br>
+<b>Li:</b> 14.0% (492,940)<br>
+<b>O'Tooley:</b> 3.0% (105,630)<br>
+<br>
+<b>Winner:</b> Khan
 
-  ```text
-  Election Results
-  -------------------------
-  Total Votes: 3521001
-  -------------------------
-  Khan: 63.000% (2218231)
-  Correy: 20.000% (704200)
-  Li: 14.000% (492940)
-  O'Tooley: 3.000% (105630)
-  -------------------------
-  Winner: Khan
-  -------------------------
-  ```
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+  </p>
+</html>
